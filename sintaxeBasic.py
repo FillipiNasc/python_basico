@@ -9,7 +9,7 @@ y = 3.14
 #Print comando que imprimi na tela
 
 print(x, type(x)) #type para descobri o tipo da variavel
-print(nome, type(nome), len(nome)) #len para tamanho de variaveis
+print(nome, type(nome), len(nome))
 print(y, type(y))
 
 
@@ -18,18 +18,18 @@ print(y, type(y))
 comentario de mutiplas linhas
 """
 """
-Listas podem ser alteradas pois sao mutaveis
-Tuplas nao podem ser alteradas pois sao imutaveis
-Dicionarios podem ser alterados pois sao mutaveis
-OBS: Dicionatios trabalham com chaves
+Listas podem ser alteradas pois sao mutavel
+Tuplas nao podem ser alteradas pois sao imutavel
+Dicionarios podem ser alterados pois sao mutavel
+OBS: Dicionarios trabalham com chaves
 """
-#Criando uma lista usa []
+#Criando uma lista []
 lista = [1, 3.14, 'Python']
 
-#Criando uma Tupla usa ()
+#Criando uma Tupla ()
 tupla = (1, 3.14,'Python')
 
-#Criando um dicionario usa {} com o separador :
+#Criando um dicionario {} com o separador :
 dicionario = {'idade':34, 'nota':7.5, 'aluno':'Python'}
 
 print(lista, type(lista), len(lista))

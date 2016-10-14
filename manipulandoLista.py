@@ -1,6 +1,6 @@
 #Manipulacao de listas
 
-#Concartenando listas
+#Concatenando listas
 lista1 = [1,2,3,4]
 lista2 = [5,6,7,8,9]
 print(lista1+lista2)
@@ -12,7 +12,7 @@ lista.pop(0)
 lista.pop(len(lista) - 1)
 print(lista)
 
-#Usando o remove para remover elementos da lista pelo elemento
+#Usando o remove para remover elementos especifico
 lisremove = [1,2,3,'oi',4,5,6]
 lisremove.remove('oi')
 print(lisremove)
